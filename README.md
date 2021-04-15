@@ -15,3 +15,4 @@ The program requires Python. You won't need any additional modules to run it. Th
  After running the program, a 'Files' directory will be created containing the HTML content of every search from the text file. The content may not look entirely correct because the program, as of now, does not download all the assets. So webpages will look incomplete... but, you still get the website, I guess 😬
  
 ## Demonstation
+![Editing the text file](../assets/txt.jpg)
