@@ -1,7 +1,7 @@
 @echo off
 
 python main.py
-echo Opening all the html files in a new tab...
+echo Opening all the html files in a new tab..
 pause
 
 cd Files
