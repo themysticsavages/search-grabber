@@ -1,6 +1,6 @@
 @echo off
 
-python main.py
+py main.py
 echo Opening all the html files in a new tab...
 pause
 
