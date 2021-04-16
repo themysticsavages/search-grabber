@@ -60,6 +60,7 @@ for x in txt:
     iprog = iprog + 1
 
     # Refreshes the console without stdout and stuff.
+    clear()
     print ("\033[A                             \033[A")
     print(str(iprog) + '/' + str(count) + ' scraped.')
 
