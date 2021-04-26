@@ -1,7 +1,7 @@
 # Information
 SearchGrabber is a Python grabber which scrapes the content of Google Searches. I called it a grabber instead of a scraper since it does not get specific text from a website, it instead takes all the HTML content and creates an HTML file from it. The script only works on Python 3 for now.
 ## How to use it
-The program requires Python. You won't need any additional modules to run it. The program itself is entirely automated requiring no input at all. However, the program reads off a search file. You can follow the layout of the txt file included. The filename the program reads off by default is called *searches.txt*. You can change it, if you want by replacing the word *searches* with whatever you want (as long as the OS is ok with it):
+The program requires Python <=3 and the 'requests' module if Python does not come with it. The program itself is entirely automated requiring no input at all. However, the program reads off a search file. You can follow the layout of the txt file included. The filename the program reads off by default is called *searches.txt*. You can change it, if you want by replacing the word *searches* with whatever you want (as long as the OS is ok with it):
 
     try:
         txt = open("searches.txt", "r")
