@@ -1,7 +1,7 @@
 # READ THIS SECTION
 # Please note that this program can scrape 52 searches at a time.
 # Not like you need more than that amount anyway.
-# (c) 2021 TheRealMysticSavages
+# (c) 2021 themysticsavages
 
 import os, os.path, time, requests, sys
 clear = lambda: os.system('cls')
